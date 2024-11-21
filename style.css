@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+#header {
+  background: red;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+#header > a{
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#header > a:hover {
+  background: gray;
+}
+
+#main > a {
+  color: white;
+    background: rgba(253, 54, 54, 1);
+  border-radius: 999px;
+  padding: 10px 40px;
+  display: inline-block;
+}
+
+#main > p {
+  color: rgba(253, 54, 54, 1);
+  padding: 30px;
+}
+
+#main {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+padding-top: 20vh;
+}
+ 
+ #footer{
+   display: flex;
+   justify-content: center;
+   padding-top: 15vh;
+ }
+ 
+ #main , #footer {
+   box-sizing: border-box;
+   background: url("img/pattern.jpg");
+   
+ }
+ 
+ #footer > img {
+   width: 100%;
+ }
+ #container {
+  min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ #check {
+   display: none;
+ }
+ 
+ #checkbtn {
+   padding-left: 10px;
+   font-size: 20px;
+   color: white;
+ }
+ 
+ #header > a {
+   position: fixed;
+   left: 100%;
+ }
+ 
+ #check:checked ~ a {
+   right: 0px;
+   position: static;
+   
+ }

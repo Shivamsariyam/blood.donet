@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+  
+#xyz {
+  background: red;
+  display: flex;
+  padding: 15px 0px;
+}
+
+#xyz > a{
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+
+#xyz > a:hover {
+  background: gray;
+}
+  
+  #main{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    background: url("img/pattern.jpg");
+
+  }
+  form{
+    width:70wv;
+    border-radius: 10px;
+    padding:40px 40px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+ input,button{
+    height: 25px;
+    width:100%;
+    border-radius: 10px;
+    border:none;
+ }
+ #info{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    background: rgba(212, 212, 212, 1);
+    margin: 20px;
+    border-radius: 10px;
+ }
+ button{
+    margin-top: 10px;
+    height:40px;
+    color:white;
+    background-color: rgba(65, 195, 68, 1);
+    font-weight: 700;
+    font-size: 20px; 
+ }
+ input{
+    padding:5px;
+    background: darkgray;
+   margin: 10px 0px;
+}
+ label{
+    padding:2px;
+    font-size: 18px;
+ }
+ 
