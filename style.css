@@ -54,7 +54,8 @@ padding-top: 20vh;
  #main , #footer {
    box-sizing: border-box;
    background: url("img/pattern.jpg");
-   
+   background: cover;
+   background-repeat: no-repeat;
  }
  
  #footer > img {
