@@ -12,14 +12,12 @@
 
 #xyz > a{
   color: white;
-  padding: 10px;
+  padding: 0px 10px;
   font-size: 15px;
   
 }
 
-#xyz > a:hover {
-  background: gray;
-}
+
   
   #main{
     height:90vh;
@@ -27,8 +25,10 @@
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    background: url("img/pattern.jpg");
-
+    background-image: url("img/pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
   form{
     width:70wv;
@@ -38,7 +38,7 @@
     flex-direction: column;
     gap: 20px;
   }
- input,button{
+ input,button , select{
     height: 25px;
     width:100%;
     border-radius: 10px;
@@ -60,7 +60,7 @@
     font-weight: 700;
     font-size: 20px; 
  }
- input{
+ input , select{
     padding:5px;
     background: darkgray;
    margin: 10px 0px;
@@ -70,3 +70,7 @@
     font-size: 18px;
  }
  
+ select {
+   height: 30px;
+   font-size: 18px;
+ }

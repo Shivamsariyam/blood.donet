@@ -9,21 +9,21 @@
   padding: 15px 0px;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 #header > a{
   color: white;
-  padding: 10px;
+  padding:0px 10px;
   font-size: 15px;
   display: inline-block;
 }
 
-#header > a:hover {
-  background: gray;
-}
-
 #main > a {
   color: white;
-    background: rgba(253, 54, 54, 1);
+  background: rgb(253, 54, 54);
   border-radius: 999px;
   padding: 10px 40px;
   display: inline-block;
@@ -42,7 +42,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-padding-top: 20vh;
+  padding-top: 20vh;
 }
  
  #footer{
@@ -52,10 +52,10 @@ padding-top: 20vh;
  }
  
  #main , #footer {
-   box-sizing: border-box;
-   background: url("img/pattern.jpg");
-   background: cover;
+   background-image: url("img/pattern.jpg");
    background-repeat: no-repeat;
+   background-size: cover;
+   
  }
  
  #footer > img {

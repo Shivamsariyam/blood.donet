@@ -8,11 +8,15 @@
   background: red;
   display: flex;
   padding: 15px 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 #abc > a{
   color: white;
-  padding: 10px;
+  padding: 0px 10px;
   font-size: 15px;
   
 }
@@ -22,35 +26,39 @@
 }
   
   #hii{
-    height:100vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    background: url("img/pattern.jpg");
-
+    background-image: url("img/pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   form{
-    width:70wv;
+    width: 70vw;
     border-radius: 10px;
-    padding:40px 40px;
+    padding: 30px 40px;
     display:flex;
     flex-direction: column;
-    gap: 20px;
+    overflow: auto;
+    
   }
- input,button{
+ input,button , select{
     height: 25px;
-    width:100%;
+    width: 100%;
     border-radius: 10px;
     border:none;
+    
  }
  #hello{
     display:flex;
     flex-direction:column;
-    width:100%;
+    height: 60vh;
     background: rgba(212, 212, 212, 1);
     margin: 20px;
     border-radius: 10px;
+    flex-wrap: wrap;
  }
  button{
     margin-top: 10px;
@@ -60,7 +68,7 @@
     font-weight: 700;
     font-size: 20px; 
  }
- input{
+ input, select {
     padding:5px;
     background: darkgray;
    margin: 10px 0px;
@@ -70,3 +78,7 @@
     font-size: 18px;
  }
  
+ select {
+   height: 35px;
+   font-size: 18px;
+ }
